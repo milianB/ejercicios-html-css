@@ -1,0 +1,23 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Source Sans Pro',sans-serif;
+}
+
+header{
+  position: fixed;
+  background: white;
+  z-index: 1000 <!--determina que elementos cubren a otros-->
+
+}
+
+.a-menu { <!-- le damos estilo a la clase -->
+  padding: 10px 0; ;<!-- espacio de relleno entre todos los lados de
+  un elemento. Se puede asignar el valor de cada lado ej. px px px px -->
+  width:100%; <!-- anchura minima y anchura max -->
+  margin: 0%; <!-- establece el margen para los cuatro lados. px px px px -->
+  border-bottom: 0px solid #d3d3d3; <!-- define el borde de todos. border width/thin-medium-thick
+  border style/ y border color--> ;
+
+
+}
