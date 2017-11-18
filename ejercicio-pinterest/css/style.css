@@ -1,7 +1,34 @@
-*{
-   margin: 0;
-   padding: 0;
-   font-family: 'Source Sans Pro',sans-serif;
+/* */
+
+input[type="text"]{ /*editar etiqueta donde usuario ingresa texto*/
+  width: 60%;
+  background-color: #e3e3e3;
+  border: none;
+  height: 40px;
+}
+
+.columna{
+  vertical-align: top;
+}
+
+.contenedor-iconos > img{
+  margin: 20px;
+}
+
+.float-right{ /* */
+  float: right;
+}
+
+.contenedor-items > p{
+  display: inline-block;
+  background-color: purple;
+  color: white;
+}
+
+nav{
+  position: fixed;
+  width: ;
+
 }
 
 header{
@@ -14,10 +41,8 @@ header{
 .a-menu { <!-- le damos estilo a la clase -->
   padding: 10px 0; ;<!-- espacio de relleno entre todos los lados de
   un elemento. Se puede asignar el valor de cada lado ej. px px px px -->
-  width:100%; <!-- anchura minima y anchura max -->
+  width: 100%; <!-- anchura minima y anchura max -->
   margin: 0%; <!-- establece el margen para los cuatro lados. px px px px -->
   border-bottom: 0px solid #d3d3d3; <!-- define el borde de todos. border width/thin-medium-thick
   border style/ y border color--> ;
-
-
 }

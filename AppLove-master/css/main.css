@@ -1,3 +1,4 @@
+
 /*CLASES REUTILIZABLES*/
 * {
   -webkit-box-sizing: border-box;
@@ -17,6 +18,24 @@ body {
   line-height: 1.71429;
 }
 
+header > div > .menu-list-container{
+
+}
+
+font-family: 'Raleway', sans-serif;
+
+.float-lefth{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.logo{
+  width: 50px;
+
+}
 img {
   vertical-align: middle;
 }
@@ -70,4 +89,3 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
-
